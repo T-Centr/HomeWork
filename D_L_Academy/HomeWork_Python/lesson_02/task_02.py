@@ -14,3 +14,14 @@
 # Я не понимаю, что вы от меня хотите...
 
 
+text = input('Четные или нечетные? ')
+if text == 'четные':
+    for i in range(21):
+        if i % 2 == 0:
+            print(i, end=' ')
+elif text == 'нечетные':
+    for i in range(21):
+        if i % 2 != 0:
+            print(i, end=' ')
+else:
+    print('Я не понимаю, что вы от меня хотите...')

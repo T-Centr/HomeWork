@@ -8,3 +8,9 @@
 # * при желании и понимании решите задачу с применением цикла for.
 
 
+lst = list(map(int, (input('Введите число: '))))
+count = 0
+for i in lst:
+    while i > count:
+        count = i
+print(count)
